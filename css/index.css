@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color:#7fe9e9;
+    background-color:#a4b0be;
     border-bottom: 10px solid black;
     padding: 10px 20px;
     
@@ -24,7 +24,7 @@ a {
 }
 
 a:hover::before{
-    background: #FF6347;
+    background: #ff4d4d;
   }
 
 /* o seletor a::before é um pseudo-elemento e foi utilizado para criar um conteudo antes da tag a, assim como poderia ter sido usado a::after */
@@ -32,7 +32,7 @@ a::before {
     content: "";
     width: 10px;
     height: 10px;
-    background-color: cornflowerblue;
+    background-color: #ff7979;
     margin-right: 10px;
 }
 
@@ -43,7 +43,7 @@ a::before {
 
 #button {
     display: inline-block;
-    background-color:cornflowerblue;
+    background-color:#ff7979;
     color: white;
     padding-top: 18px;
     padding-bottom: 18px;
@@ -53,7 +53,7 @@ a::before {
 }
 
 #button:hover {
-    background-color: #FF6347;
+    background-color: #ff4d4d;
     border-radius: 5px;
     box-shadow: none;
     transition: 300ms;
