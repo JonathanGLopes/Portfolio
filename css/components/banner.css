@@ -1,0 +1,35 @@
+/*No background-image para acessar a pasta da imagem primeiro precisamos sair da pasta atual, que no caso é dos componentes. Para isso utilizamos o ../ até sair do
+diretório atual e poder acessar a pasta desejada, no caso a assets que contém as imagens */
+
+.banner {
+    box-sizing: content-box;
+    background-image: url(../../assets/img/banner.png);
+    background-size: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: 10px solid #000;
+    padding-top: 115px;
+    padding-left: 90px;
+}
+
+/* Aqui utilizamos mais uma vez o comportamento no filho através do pai, criando div dentro do banner para determinar um visual específico para o filho.
+Nossa section já está funcionando do jeito desejado, então para determinar um comportamento específico nós criamos uma div dentro dela como filho para atribuir características
+aos elementos */
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+    margin-left: 50px;
+    margin-top: 115px;
+}
+
+.banner .box {
+    margin-bottom: 35px;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-evenly;
+}
