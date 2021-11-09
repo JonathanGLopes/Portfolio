@@ -1,4 +1,4 @@
-.action {
+.main-action {
     display: inline-flex;
     align-items: center;
     font-size: 20px;
@@ -9,12 +9,12 @@
     margin-right: 30px;
 }
 
-.action:hover::before{
+.main-action:hover::before{
     background: #ff4d4d;
   }
 
 /* o seletor a::before é um pseudo-elemento e foi utilizado para criar um conteudo antes da tag a, assim como poderia ter sido usado a::after */
-.action::before {
+.main-action::before {
     content: "";
     width: 10px;
     height: 10px;
