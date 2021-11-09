@@ -1,4 +1,4 @@
-.box {
+.main-box {
     display: inline-block;
     background-color: #a4b0be;
     box-shadow: 7px 7px 0 #000;
@@ -9,6 +9,6 @@
 /* o #box h1 é para determinar um comportamento no filho, ao invés de aplicar o bottom no h1, nós aplicamos desta maneira para pegar apenas o h1 dentro do seletor #box,
  caso contrário esse padding afetaria todos os h1. Esse é um conceito de aplicar algo no elemento filho, que no caso é o h1 dentro do box, sendo o box o pai */
 
-.box .title {
+ .main-box .main-title {
     padding-bottom: 20px;
 }
