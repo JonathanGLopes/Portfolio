@@ -1,6 +1,18 @@
 .section {
-    background-color: blue;
+    background-color: #686de0;
     padding-top: 50px;
     padding-bottom: 100px;
-    border-bottom: 10px solid magenta;
+    border-bottom: 10px solid #000;
+}
+
+.section .main-title {
+    margin-bottom: 70px;
+}
+
+.section.-bgProject {
+    background-color: lightgray;
+}
+
+.section.-bdProject {
+    border-color: black;
 }

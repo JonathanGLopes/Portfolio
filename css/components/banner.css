@@ -3,7 +3,7 @@ diretório atual e poder acessar a pasta desejada, no caso a assets que contém 
 
 .banner {
     box-sizing: content-box;
-    background-image: url(../../assets/img/banner.png);
+    background-image: url(../../assets/img/kayn.jpg);
     background-size: 100%;
     height: 800px;
     background-repeat: no-repeat;
