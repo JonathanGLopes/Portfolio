@@ -16,3 +16,11 @@
 .main-section.-bdProject {
     border-color: black;
 }
+
+.main-section.-bgDescription {
+    border-color: #000;
+}
+
+.main-section.-bdDescription {
+    background-color: #686de0;
+}
