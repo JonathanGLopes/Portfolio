@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+@import url(navbar.css);
+@import url(header.css);
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --gray: #C4C4C4;
+    --white: #FFF;
+    --blue: #407BFF; 
+}
