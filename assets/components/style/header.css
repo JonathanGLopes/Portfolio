@@ -45,6 +45,8 @@
 }
 
 .header__intro-linkedin{
+    display: flex;
+    align-items: center;
     border: 1px solid;
     border-image: linear-gradient(to right, #9358F7, #10D7E2) 1;
 }
@@ -54,6 +56,8 @@
 }
 
 .header__intro-github{
+    display: flex;
+    align-items: center;
     border: 1px solid;
     border-image: linear-gradient(to right, #D24074, #6518B4) 1;
 }
