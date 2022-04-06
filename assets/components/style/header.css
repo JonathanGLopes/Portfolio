@@ -42,6 +42,7 @@
 .header__intro-linkedin, .header__intro-github {
     padding: 1rem 2rem;
     color: var(--white);
+    width: 6.25rem;
 }
 
 .header__intro-linkedin{
@@ -49,10 +50,12 @@
     align-items: center;
     border: 1px solid;
     border-image: linear-gradient(to right, #9358F7, #10D7E2) 1;
+    transition: transform 100ms linear;
 }
 
 .header__intro-linkedin:hover{
     background: linear-gradient(to right, #9358F7, #10D7E2);
+    transform: scale(1.05);
 }
 
 .header__intro-github{
@@ -60,10 +63,12 @@
     align-items: center;
     border: 1px solid;
     border-image: linear-gradient(to right, #D24074, #6518B4) 1;
+    transition: transform 100ms linear;
 }
 
 .header__intro-github:hover{
     background: linear-gradient(to right, #D24074, #6518B4);
+    transform: scale(1.05);
 }
 
 .btn-icon {

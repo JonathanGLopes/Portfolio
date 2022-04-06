@@ -52,6 +52,10 @@
     margin-left: 2rem;
 }
 
+.aboutme__social-media:hover{
+    transform: scale(1.08);
+}
+
 .aboutme__social-media:first-child{
     margin-left: 0;
 }
@@ -64,6 +68,7 @@
 .aboutme__link-cirriculum, .aboutme__link-mail {
     padding: 1rem 2rem;
     color: var(--white);
+    width: 6.25rem;
 }
 
 .aboutme__link-cirriculum{
@@ -71,10 +76,12 @@
     align-items: center;
     border: 1px solid;
     border-image: linear-gradient(to right, #D24074, #6518B4) 1;
+    transition: transform 100ms linear;
 }
 
 .aboutme__link-cirriculum:hover{
     background: linear-gradient(to right, #D24074, #6518B4);
+    transform: scale(1.05);
 }
 
 .aboutme__link-mail {
@@ -82,10 +89,12 @@
     align-items: center;
     border: 1px solid;
     border-image: linear-gradient(to right, #9358F7, #10D7E2) 1;
+    transition: transform 100ms linear;
 }
 
 .aboutme__link-mail:hover{
     background: linear-gradient(to right, #9358F7, #10D7E2);
+    transform: scale(1.05);
 }
 
 .aboutme__link-mail {
