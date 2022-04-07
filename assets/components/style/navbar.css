@@ -2,8 +2,7 @@
     display: flex;
     justify-content: space-around;
     background-color: #22201F;
-    padding: 3rem;
-    border-bottom: 1px solid gray;
+    padding: 2rem;
 }
 
 .navbar__logotype {
