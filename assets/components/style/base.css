@@ -5,6 +5,7 @@
 @import url(aboutme.css);
 @import url(exp.css);
 @import url(project.css);
+@import url(footer.css);
 
 body {
     font-family: 'Inter', sans-serif;
