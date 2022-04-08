@@ -65,6 +65,7 @@
     transition: transform 100ms linear;
     padding: 1rem;
     width: 130px;
+    color: var(--white);
 }
 
 .project__link:hover{
