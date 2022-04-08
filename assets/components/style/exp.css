@@ -101,17 +101,18 @@
     color: gray;
 }
 
+#dev, #regispel, #tmkt{
+    padding-left: 1rem;
+}
+
 .dev-active {
     border-left: 2px solid var(--blue);
-    padding-left: 1rem;
 }
 
 .regispel-active {
     border-left: 2px solid var(--blue);
-    padding-left: 0.5rem;
 }
 
 .tmkt-active {
     border-left: 2px solid var(--blue);
-    padding-left: 1rem;
 }

@@ -6,11 +6,7 @@
 }
 
 .navbar__logotype {
-    color: var(--white);
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-decoration: none;
-    outline: none;
+    width: 60px;
 }
 
 .navbar__links{
