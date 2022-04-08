@@ -1,0 +1,70 @@
+
+.project__wrapper{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.project__card{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.project__title{
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin: 8rem 0;
+}
+
+.project__img {
+    width: 530px;
+}
+
+.project__name{
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.project__description{
+    color: var(--gray);
+    font-size: 16px;
+    line-height: 26px;
+    width: 438px;
+}
+
+.project__tech{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--blue);
+}
+
+.project__tech-list{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.project__tech-list li {
+    color: var(--white);
+}
+
+.project__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid;
+    border-image: linear-gradient(to right, #9358F7, #10D7E2) 1;
+    transition: transform 100ms linear;
+    padding: 1rem;
+    width: 130px;
+}
+
+.project__link:hover{
+    background: linear-gradient(to right, #9358F7, #10D7E2);
+    transform: scale(1.05);
+}
