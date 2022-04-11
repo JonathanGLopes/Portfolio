@@ -1,0 +1,6 @@
+const $menuMobile = document.querySelector(".navbar__menu-hamburguer");
+const $navbarLinks = document.querySelector(".navbar__links");
+
+$menuMobile.addEventListener("click", () => {
+    $navbarLinks.classList.toggle("navbar__active");
+});
