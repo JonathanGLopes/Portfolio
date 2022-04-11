@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+    .header{
+        padding: 3rem;
+    }
+
+    .header__intro-hello {
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--white);
+    }
+
+    .header__intro-name {
+        font-size: 32px;
+        font-weight: 600;
+        color: var(--blue);
+    }
+
+    .header__intro-work {
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--white);
+    }
+
+    .header__img {
+        display: none;
+    }
+
+    .aboutme, .exp, .project, .footer {
+        display: none;
+    }
+}
