@@ -1,13 +1,18 @@
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #22201F;
     padding: 2rem;
 }
 
+.navbar__menu{
+    display: none;
+}
+
 .navbar__logotype {
     width: 60px;
+    margin-left: 12rem;
 }
 
 .navbar__links{

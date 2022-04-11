@@ -1,0 +1,40 @@
+@media (max-width: 768px){
+    .navbar__logotype{
+        display: none;
+    }
+
+    .navbar__menu {
+        display: block;
+    }
+
+    .navbar__menu-hamburguer {
+        width: 50px;
+    }
+
+    .navbar__active {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navbar__links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+        margin: 0 auto;
+        text-align: center;
+        background-color: blue;
+        height: 50vh;
+        padding: 2rem;
+        width: 100%;
+        position: fixed;
+        left: 150%;
+        top: 120px;
+        transition: 0.3s linear;
+    }
+
+    .navbar__links a {
+        margin-left: 0;
+    }
+}
