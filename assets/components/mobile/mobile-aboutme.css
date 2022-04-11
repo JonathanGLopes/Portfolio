@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .aboutme-img{
+        width: 300px;
+    }
+
+    .aboutme__title {
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--white);
+        text-align: center;
+    }
+
+    .aboutme__city {
+        font-size: 20px;
+        color: var(--white);
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .aboutme__description{
+        font-size: 18px;
+        line-height: 32px;
+        color: var(--gray);
+        width: 350px;
+        align-self: center;
+    }
+
+    .aboutme__contact{
+        justify-content: center;
+    }
+}
