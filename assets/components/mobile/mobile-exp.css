@@ -24,11 +24,16 @@
         flex-direction: column;
     }
 
+    .exp__description-title{
+        line-height: 30px;
+    }
+
     .exp__description-text {
         width: 350px;
     }
 
     .exp__description-dev, .exp__description-regispel, .exp__description-tmkt {
         margin-left: 0;
+        line-height: 20px;
     }
 }
