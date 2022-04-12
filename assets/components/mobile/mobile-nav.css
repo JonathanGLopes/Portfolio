@@ -20,26 +20,25 @@
     .navbar__active {
         position: absolute;
         left: 0;
-        top: 0;
+        top: 120px;
     }
 
     .navbar__links {
+        position: fixed;
+        right: -120%;
+        top: 120px;
+        padding: 2rem 0;
+        background-color: #22201f;
+        transition: 0.3s linear;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        gap: 3rem;
-        margin: 0 auto;
-        text-align: center;
-        background-color: blue;
-        height: 50vh;
-        width: 100%;
-        position: fixed;
-        left: 150%;
-        top: 120px;
-        transition: 0.3s linear;
+        gap: 2rem;
+        align-items: center;
     }
 
     .navbar__links a {
         margin-left: 0;
+        color: var(--white);
     }
 }
