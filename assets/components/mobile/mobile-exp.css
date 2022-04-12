@@ -1,0 +1,34 @@
+@media (max-width: 768px){
+    .exp{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .exp__wrapper{
+        margin-top: 0;
+    }
+
+    .exp__title{
+        align-self: center;
+    }
+
+    .exp__list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .exp__wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .exp__description-text {
+        width: 350px;
+    }
+
+    .exp__description-dev, .exp__description-regispel, .exp__description-tmkt {
+        margin-left: 0;
+    }
+}

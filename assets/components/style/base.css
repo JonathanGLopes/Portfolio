@@ -12,6 +12,7 @@
 @import url(/assets/components/mobile/mobile-nav.css);
 @import url(/assets/components/mobile/mobile-header.css);
 @import url(/assets/components/mobile/mobile-aboutme.css);
+@import url(/assets/components/mobile/mobile-exp.css);
 
 body {
     font-family: 'Inter', sans-serif;

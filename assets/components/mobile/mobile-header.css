@@ -25,7 +25,7 @@
         display: none;
     }
 
-    .exp, .project, .footer {
+    .project, .footer {
         display: none;
     }
 }
