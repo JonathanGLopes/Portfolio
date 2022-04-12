@@ -3,6 +3,10 @@
         display: flex;
         flex-direction: column;
     }
+    
+    .project__title{
+        margin: 6rem 0;
+    }
 
     .project__img{
         width: 360px;

@@ -1,10 +1,12 @@
 @media (max-width: 768px){
     .exp{
+        background-color: #22201F;
         display: flex;
         justify-content: space-around;
     }
 
     .exp__wrapper{
+        background-color: #22201F;
         margin-top: 0;
     }
 
