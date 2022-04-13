@@ -17,6 +17,7 @@
 
 .navbar__links{
     display: flex;
+    margin-right: 6rem;
     color: var(--white);
 }
 
