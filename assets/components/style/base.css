@@ -30,6 +30,17 @@ body::-webkit-scrollbar-thumb{
     border-radius: 5px;
 }
 
+@media (min-width: 1280px){
+    body {
+        background-color: #22201F;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{max-width: 1280px;}
+    .navbar__logotype{margin-left: 0;}
+}
+
 :root {
     --gray: #C4C4C4;
     --white: #FFF;
