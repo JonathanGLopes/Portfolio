@@ -1,7 +1,7 @@
 .footer {
     display: flex;
     justify-content: center;
-    padding: 2rem 0;
+    padding: 3rem 0;
     background-color: #22201F;
 }
 
@@ -22,4 +22,8 @@
     position: relative;
     right: -600px;
     color: white;
+}
+
+.footer__backtop:hover {
+    color: var(--blue);
 }
