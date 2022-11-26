@@ -2,7 +2,7 @@
 
 ### Descrição
   - Página de portfólio desenvolvida como outra alternativa de me apresentar e os meus projetos realizados além do próprio Github.
-  - Responsivo para mobile, table e desktop.
+  - Responsivo para mobile, tablet e desktop.
 
 
 
