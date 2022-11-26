@@ -1,7 +1,8 @@
 # Portfolio
 
 ### Descrição
-  - Página de portfólio desenvolvida como outra alternativa de exibir os projetos realizados além do próprio Github
+  - Página de portfólio desenvolvida como outra alternativa de me apresentar e os meus projetos realizados além do próprio Github.
+  - Responsivo para mobile, table e desktop.
 
 
 
