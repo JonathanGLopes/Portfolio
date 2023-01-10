@@ -22,3 +22,8 @@ Tecnologias Utilizadas:
  <p align="center">
       <img src="https://cdn.discordapp.com/attachments/694618905838092319/1026951148730585098/unknown.png"/>
  </p>
+
+### Status
+- Finalizado
+
+link para acessar: https://portfolio-psi-five-70.vercel.app/
