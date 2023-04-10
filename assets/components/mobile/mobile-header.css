@@ -3,19 +3,19 @@
         padding: 6rem;
     }
 
-    .header__intro-hello {
+    .header__intro-ola {
         font-size: 20px;
         font-weight: 600;
         color: var(--white);
     }
 
-    .header__intro-name {
+    .header__intro-nome {
         font-size: 32px;
         font-weight: 600;
         color: var(--blue);
     }
 
-    .header__intro-work {
+    .header__intro-funcao {
         font-size: 20px;
         font-weight: 600;
         color: var(--white);
