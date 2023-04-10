@@ -12,19 +12,19 @@
     gap: 1.5rem;
 }
 
-.header__intro-hello{
+.header__intro-ola{
     font-size: 24px;
     font-weight: 600;
     color: var(--white);
 }
 
-.header__intro-name{
+.header__intro-nome{
     font-size: 64px;
     font-weight: 600;
     color: var(--blue);
 }
 
-.header__intro-work {
+.header__intro-funcao {
     font-size: 24px;
     font-weight: 600;
     color: var(--white);
