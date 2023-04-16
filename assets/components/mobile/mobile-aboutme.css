@@ -1,29 +1,29 @@
 @media (max-width: 768px) {
-    .aboutme{
+    .sobre{
         display: flex;
         flex-direction: column;
         gap: 2rem;
     }
 
-    .aboutme-img{
+    .sobre-img{
         width: 300px;
     }
 
-    .aboutme__title {
+    .sobre__titulo {
         font-size: 20px;
         font-weight: 600;
         color: var(--white);
         text-align: center;
     }
 
-    .aboutme__city {
+    .sobre__cidade {
         font-size: 20px;
         color: var(--white);
         font-weight: 500;
         text-align: center;
     }
 
-    .aboutme__description{
+    .sobre__descricao{
         font-size: 18px;
         line-height: 32px;
         color: var(--gray);
