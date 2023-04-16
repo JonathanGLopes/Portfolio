@@ -1,4 +1,4 @@
-.aboutme{
+.sobre{
     background-color: #2c2b2b;
     display: flex;
     justify-content: space-evenly;
@@ -6,38 +6,38 @@
     padding: 5rem;
 }
 
-.aboutme__wrapper {
+.sobre__wrapper {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.aboutme__text {
+.sobre__texto {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.aboutme__title{
+.sobre__titulo{
     font-size: 24px;
     font-weight: 600;
     color: var(--white);
 }
 
-.aboutme__city {
+.sobre__cidade {
     font-size: 20px;
     color: var(--white);
     font-weight: 500;
 }
 
-.aboutme__description {
+.sobre__descricao {
     font-size: 18px;
     line-height: 32px;
     color: var(--gray);
     width: 530px;
 }
 
-.aboutme-img {
+.sobre-img {
     width: 370px;
     border-radius: 5rem;
 }
